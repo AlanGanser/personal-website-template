@@ -1,0 +1,23 @@
+{
+  "name": "personal-website-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AlanGanser/personal-website-template.git"
+  },
+  "author": "Alan Ganser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanGanser/personal-website-template/issues"
+  },
+  "homepage": "https://github.com/AlanGanser/personal-website-template#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
